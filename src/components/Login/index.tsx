@@ -47,11 +47,11 @@ function Login() {
   return (
     <div className={styles['container']}>
       {userName ?
-        <Button onClick={handleLogout}>
+        <Button variant="contained" onClick={handleLogout}>
           {userName}
         </Button>
       :
-        <Button onClick={handleOpen}>Login</Button>
+        <Button variant="contained" onClick={handleOpen}>Login</Button>
       }
 
       <Modal
@@ -92,7 +92,8 @@ function Login() {
               />
 
               <Button
-                size={'large'}
+                size="large"
+                variant="contained"
                 onClick={handleSubmit}
                 disabled={loading}
               >

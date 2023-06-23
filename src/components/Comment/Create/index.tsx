@@ -32,7 +32,11 @@ function CreateComment({ postId }: { postId: string }) {
   
   return (
     <div className={styles['container']}>
-      <Button onClick={handleOpen}>Add a Comment</Button>
+      <Button
+        variant="contained"
+        onClick={handleOpen}
+        size="large"
+      >Add a Comment</Button>
 
       <Modal
         open={open}
@@ -61,7 +65,8 @@ function CreateComment({ postId }: { postId: string }) {
               />
 
               <Button
-                size={'large'}
+                variant="contained"
+                size="large"
                 onClick={handleSubmit}
                 disabled={loading}
               >

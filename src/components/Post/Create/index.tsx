@@ -35,7 +35,7 @@ function CreatePost() {
   
   return (
     <div className={styles['container']}>
-      <Button onClick={handleOpen}>Create Post</Button>
+      <Button variant="contained" onClick={handleOpen}>Create Post</Button>
 
       <Modal
         open={open}
@@ -74,7 +74,8 @@ function CreatePost() {
               />
 
               <Button
-                size={'large'}
+                size="large"
+                variant="contained"
                 onClick={handleSubmit}
                 disabled={loading}
               >
