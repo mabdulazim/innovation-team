@@ -1,0 +1,23 @@
+.container {
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .table {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 4rem;
+
+    .item {
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

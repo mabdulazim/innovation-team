@@ -1,0 +1,17 @@
+.container {
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  padding: 2rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+}
